@@ -6,6 +6,7 @@ import sales from "../assets/img/salesforce1.svg";
 import htmlIcon from "../assets/img/html-icon.svg";
 import reactIcon from "../assets/img/icon-react.svg"
 import cssIcon from "../assets/img/css-icon.svg";
+import jsicon from "../assets/img/icon-javascript.svg";
 
 import colorSharp from "../assets/img/color-sharp.png";
 
@@ -65,7 +66,7 @@ export const Skills = () => {
                   <h2>CSS</h2>
                 </div>
                 <div className="item">
-                   <img src={reactIcon} alt="Image"/>
+                   <img src={jsicon} alt="Image"/>
                   <h2>JavaScript</h2>
                 </div>
                 <div className="item">

@@ -422,6 +422,8 @@ transform: translate(-50%, -50%);
 transition: 0.5s ease-in-out;
 opacity: 0;
 width: 100%;
+padding-left: 5px;
+padding-right: 5px;
 }
 .proj-imgbx:hover .proj-txtx {
 top: 50%;
@@ -448,6 +450,12 @@ right: 0;
 z-index: -4;
 }
 
+.proj-img {
+  width: 100%; /* Makes the image fill the entire width of its container */
+  height: auto; /* Maintains the image's aspect ratio while adjusting the width */
+  min-height: 400px;
+  
+}
 /*projects*/
 
 

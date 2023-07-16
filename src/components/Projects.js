@@ -1,43 +1,45 @@
 import { Container, Col, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg0 from "../assets/img/tsocial.png";
+import projImg1 from "../assets/img/digital-asset.png";
+import projImg2 from "../assets/img/vr-crane.png";
+import projImg3 from "../assets/img/tsocial-web.png";
+import projImg4 from "../assets/img/blind-assist.png";
 import colorSharp2 from "../assets/img/color-sharp2.png"
 import TrackVisibility from "react-on-screen";
 import { isVisible } from "@testing-library/user-event/dist/utils";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Startup Story Telling App",
+      description: "Developed onboarding features for a mobile app that enables users to create and share their life’s journey.",
+      imgUrl: projImg0,
+    },
+    {
+      title: "Augmented Reality Digital Asset Binding App",
+      description: "Created a mobile app for frontline workers in collaboration with industry partner PTC, enabling users to attach digital assets like notes, videos, and voice recordings to a spatial anchor (Azure), providing convenient access to relevant information with contextual relevance.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Virtual Reality Crane Training Simulation",
+      description: "Partnered with Packet39 to design an immersive VR crane tutorial, faithfully replicating real crane controls and behavior, ensuring a comprehensive training experience with complete six degrees of freedom.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Startup Story Telling Web App",
+      description: "Implemented onboarding features for a web application, empowering users to create and share their life's journey.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Wearable Prototype for Enhanced Mobility and Awareness",
+      description: "Designed and implemented a wearable Raspberry Pi prototype to enhance mobility and awareness for visually challenged individuals, integrating facial recognition, voice, and haptic feedback",
+      imgUrl: projImg4,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg5,
+    // },
   ];
   return (
     <section className="project" id="project">
@@ -49,8 +51,7 @@ export const Projects = () => {
               <div className={isVisible ? "animated__animated animate__bounce" : ""}>
             <h2>Projects</h2>
             <p>
-              Ad labore laboris exercitation cupidatat ipsum sit deserunt sunt
-              ullamco.
+            Explore the diverse range of software projects I've developed, showcasing my skills and creativity.
             </p>
             </div>}
             </TrackVisibility>
@@ -81,8 +82,8 @@ export const Projects = () => {
                         }
                     </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second">Coming Soon</Tab.Pane>
+                <Tab.Pane eventKey="third">Coming Soon</Tab.Pane>
             </Tab.Content>
             </Tab.Container>
           </Col>
