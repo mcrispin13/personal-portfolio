@@ -2,9 +2,11 @@ import Carousel from "react-multi-carousel";
 import { Container, Col, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import { CaretUp } from "react-bootstrap-icons";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import sales from "../assets/img/salesforce1.svg";
+import htmlIcon from "../assets/img/html-icon.svg";
+import reactIcon from "../assets/img/icon-react.svg"
+import cssIcon from "../assets/img/css-icon.svg";
+
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -36,37 +38,46 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Velit commodo enim amet commodo. Labore incididunt officia est
-                qui amet est est elit sunt magna anim do sunt. Excepteur officia
-                duis tempor nulla cillum minim fugiat.
+                I possess a dynamic skillset, encompassing adept Salesforce
+                administration and development, proficient front-end web development, and a
+                passion for crafting innovative apps to deliver exceptional user
+                experiences.
               </p>
-              <Carousel responsive={responsive} infinite={true} className="skill-slider">
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="skill-slider"
+              >
                 <div className="item">
-                    {/* <img src={meter1} alt="Image"/>  */}
-                    <h2>Salesforce Development</h2>
+                   <img src={sales} alt="Image"/>  
+                  <h2>Salesforce Administration</h2>
                 </div>
                 <div className="item">
-                    {/* <img src={meter2} alt="Image"/> */}
-                    <h2>Salesforce Administration</h2>
+                  <img src={sales} alt="Image"/>
+                  <h2>Salesforce Development</h2>
                 </div>
                 <div className="item">
-                    {/* <img src={meter3} alt="Image"/> */}
-                    <h2>HTML/CSS</h2>
+                  <img src={htmlIcon} alt="Image"/>
+                  <h2>HTML</h2>
                 </div>
                 <div className="item">
-                    {/* <img src={meter1} alt="Image"/> */}
-                    <h2>JavaScript</h2>
+                  <img src={cssIcon} alt="Image"/>
+                  <h2>CSS</h2>
                 </div>
                 <div className="item">
-                    {/* <img src={meter1} alt="Image"/> */}
-                    <h2>React</h2>
+                   <img src={reactIcon} alt="Image"/>
+                  <h2>JavaScript</h2>
+                </div>
+                <div className="item">
+                  <img src={reactIcon} alt="Image"/>
+                  <h2>React</h2>
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp}/>
+      <img className="background-image-left" src={colorSharp} />
     </section>
   );
 };
