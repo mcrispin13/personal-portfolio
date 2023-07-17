@@ -14,26 +14,32 @@ export const Projects = () => {
       title: "Startup Story Telling App",
       description: "Developed onboarding features for a mobile app that enables users to create and share their life’s journey.",
       imgUrl: projImg0,
+      technologies: "Technologies Used: Salesforce, HTML,CSS, React Native",
     },
     {
       title: "Augmented Reality Digital Asset Binding App",
       description: "Created a mobile app for frontline workers in collaboration with industry partner PTC, enabling users to attach digital assets like notes, videos, and voice recordings to a spatial anchor (Azure), providing convenient access to relevant information with contextual relevance.",
       imgUrl: projImg1,
+      technologies: "Technologies Used: C#, Unity, Azure Cloud, JSON, iOS",
+
     },
     {
       title: "Virtual Reality Crane Training Simulation",
       description: "Partnered with Packet39 to design an immersive VR crane tutorial, faithfully replicating real crane controls and behavior, ensuring a comprehensive training experience with complete six degrees of freedom.",
       imgUrl: projImg2,
+      technologies: "Technologies Used:Technologies Used: Unity, C#, Unity, Xcode, iOS, Trello",
     },
     {
       title: "Startup Story Telling Web App",
       description: "Implemented onboarding features for a web application, empowering users to create and share their life's journey.",
       imgUrl: projImg3,
+      technologies: "Technologies Used: Salesforce, HTML,CSS, React.Js",
     },
     {
       title: "Wearable Prototype for Enhanced Mobility and Awareness",
       description: "Designed and implemented a wearable Raspberry Pi prototype to enhance mobility and awareness for visually challenged individuals, integrating facial recognition, voice, and haptic feedback",
       imgUrl: projImg4,
+      technologies: "Technologies Used:Python, OpenCV, Git, Raspberry Pi",
     },
     // {
     //   title: "Business Startup",
