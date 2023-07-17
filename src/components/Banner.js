@@ -73,14 +73,15 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I'm a New York-based software engineer with expertise in
-                    Salesforce. I hold two Salesforce certifications in administration and
-                    platform development, showcasing my proficiency in
-                    leveraging the platform’s capabilities. With a strong
-                    background in web and app development, I’m passionate about
-                    applying creative problem-solving to deliver impactful
-                    software experiences. I thrive on transforming ideas into
-                    innovative solutions that drive success!
+                    I'm a New York-based software engineer with specialized
+                    expertise in Salesforce. I hold certifications in Salesforce
+                    administration and platform development, highlighting my
+                    proficiency in leveraging the platform's capabilities. With
+                    a solid background in web and app development, I am
+                    passionate about applying creative problem-solving to
+                    deliver impactful software experiences. My strength lies in
+                    transforming ideas into innovative solutions that drive
+                    success!
                   </p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                 </div>
