@@ -18,6 +18,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
 
   useEffect(() => {
+    document.title = 'Milton Crispin';
     let ticker = setInterval(() => {
       tick();
     }, delta);
