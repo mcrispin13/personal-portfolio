@@ -461,6 +461,98 @@ z-index: -4;
 }
 /*projects*/
 
+/*carousel*/
+/* CarouselComponent.css */
+.carousel-custom {
+  width: 100%; /* Adjust the width as needed */
+  max-width: none; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+.carousel-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  }
+  .carousel-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+  }
+  .carousel-imgbx:hover::before {
+  height: 100%;
+  }
+  .carousel-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+  .carousel-imgbx:hover .carousel-txtx {
+  top: 50%;
+  opacity: 1;
+  }
+
+.carousel-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+  .carousel-txtx h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+    }
+
+    .carousel-txtx h3 {
+      font-size: 25px;
+      font-weight: 100;
+      letter-spacing: 0.8px;
+      line-height: 1.1em;
+      }
+
+    .carousel-txtx span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    text-align:center;
+    display: block;
+    padding: 10px;
+    }
+
+
+.carousel-img {
+    width: 100%; /* Makes the image fill the entire width of its container */
+    height: auto; /* Maintains the image's aspect ratio while adjusting the width */
+    min-height: 400px;
+}
+
+/* Additional styling specific to CarouselComponent */
+/* ... */
+
+/*carousel*/
 
 .App {
   text-align: center;
