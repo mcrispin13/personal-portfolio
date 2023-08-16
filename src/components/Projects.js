@@ -109,7 +109,7 @@ export const Projects = () => {
     // [projects[2], projects[3]], // Second carousel projects
     // [projects[4]], // Third carousel projects
   ];
-  /* Carousel */
+  /* Carousel*/
 
   return (
     <section className="project" id="project">
