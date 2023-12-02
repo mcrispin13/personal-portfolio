@@ -9,9 +9,9 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = [
-    "Salesforce Developer",
-    "Software Engineer",
-    "Front End Web Developer",
+    "IT Engineer",
+    "Software Developer",
+    "Product Management Specialist",
   ];
   const [text, setText] = useState("");
   const period = 2000;
@@ -74,15 +74,17 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I'm a New York-based software engineer with specialized
-                    expertise in Salesforce. I hold certifications in Salesforce
-                    administration and platform development, highlighting my
-                    proficiency in leveraging the platform's capabilities. With
-                    a solid background in web and app development, I am
-                    passionate about applying creative problem-solving to
-                    deliver impactful software experiences. My strength lies in
-                    transforming ideas into innovative solutions that drive
-                    success!
+                    Emerging Software Developer and Product Management
+                    Specialist with a blend of foundational technical and
+                    operational knowledge. Trained in enhancing code quality and
+                    empowering data-driven decision-making. Excels in
+                    collaborative environments, focusing on technical solutions
+                    and comprehensive product documentation. Focuses on
+                    optimization of user interfaces and project workflows.
+                    Demonstrated commitment to technical excellence and
+                    supporting diverse hardware and software systems. Proficient
+                    in Google Workspace, Slack, Office 365, and various SaaS
+                    services.
                   </p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                 </div>

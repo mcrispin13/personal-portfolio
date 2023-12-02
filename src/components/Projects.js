@@ -82,13 +82,13 @@ export const Projects = () => {
       technologies:
         "Technologies Used:Technologies Used: Unity, C#, Unity, Xcode, iOS, Trello",
     },
-    {
+   /* {
       title: "Startup Story Telling Web App",
       description:
         "Implemented onboarding features for a web application, empowering users to create and share their life's journey.",
       imgUrl: projImg3,
       technologies: "Technologies Used: Salesforce, HTML,CSS, React.Js",
-    },
+    },*/
     {
       title: "Wearable Prototype for Enhanced Mobility and Awareness",
       description:
